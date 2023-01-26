@@ -1,0 +1,7 @@
+.order-review-container{
+    display: flex;
+    justify-content: space-between;
+}
+.margin{
+    margin-top: 80px;
+}

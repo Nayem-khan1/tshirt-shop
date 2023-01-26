@@ -1,0 +1,21 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position: relative;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+}
+@media only screen and (max-width: 1400px){
+    .product{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+.cart-container{
+    background-color: aliceblue;
+    padding: 10px;
+}
